@@ -1,10 +1,13 @@
 {
-    "name": "kevin/sindicato-yo",
+    "name": "sindicato/sindicato",
+    "description": "Proyecto para Titulacion",
     "authors": [
         {
             "name": "Eduardo Torres C.",
             "email": "edtorres.pe@gmail.com"
         }
     ],
-    "require": {}
+    "require": {
+        "vlucas/phpdotenv": "^5.2"
+    }
 }

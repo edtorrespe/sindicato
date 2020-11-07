@@ -34,7 +34,6 @@ if (!isset($_SESSION['userid']) && !isset($_SESSION['user'])) {
 
 <div class="login-container">
     <h1 class="title"><?= APP['name'] ?></h1>
-    <p><?php include __DIR__ . '/../../../enviro.php'; ?></p>
     <img class="logo-img" src="">
     <!-- <hr> -->
     <form action="" method="post" class="login">
@@ -70,6 +69,7 @@ if (!isset($_SESSION['userid']) && !isset($_SESSION['user'])) {
             >
         </div>
     </form>
+    <p><?php include __DIR__ . '/../../../enviro.php'; ?></p>
 </div>
 
 <?php
